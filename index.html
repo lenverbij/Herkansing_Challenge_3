@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge 3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="javascript.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+	</head>
+	<body>
+		<div id="map">
+			<div class="header">
+				<img src="images/spacexlogo.png" alt="logo" class="spacexlogo">
+			</div>
+			<div class="content">
+				<h3>Welkom terug meneer Musk</h3>
+				<p>Heeft u een fijne vlucht gehad? We zijn geland in het rustige Hoogmade, Zuid-Holland.</p>
+			</div>
+			<div id="kaart">
+			</div>
+			<div id="pijl">
+				<img src="images/pijl.png" alt="pijl" class="pijlpla">
+			</div>
+		</div>
+		<div id="weer">
+			<div class="content2">
+				<p>Bekijk de temperatuur van vandaag.</p>
+				<p class="weer_tekst">Vul in de  plaats naar keuze.</p>
+			</div>
+			<div class="voorspelling">
+				<h3 class="plaats"></h3>
+				<p class="temperatuur"></p>
+			</div>
+			<div id="knop">
+				<input type="text" class="input" placeholder="plaats">
+				<input type="submit" value="submit" class="submit">
+			</div>
+		</div>
+	</body>
+</html>

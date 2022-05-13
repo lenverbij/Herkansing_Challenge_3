@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#map{
+	background: url(images/landing.jpg); 
+	width: 100wh;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#weer{
+	background: url(images/zon.jpg); 
+	width: 100wh;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#kaart { 
+ height: 50vh;
+ width: 50wh;
+ margin-left: 5%;
+ margin-right: 5%;
+ margin-bottom: 5%;
+ 
+}
+
+#pijl{
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+}
+
+#knop{
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.pijlpla{
+	height: 50px;
+	width: 70px;
+	}
+
+.content{
+	text-align: center;
+	padding: 3%;
+}
+.content2{
+	padding-top:  20%;
+	color: white;
+	text-align: center;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 6%;
+	padding-top: 3%;
+}
+.spacexlogo{
+	width: 70%;
+	height: 35px;
+	margin-left:7%;
+}
+.voorspelling{
+	height:30vh;
+	width:30wh;
+	text-align: center;
+}
+
+input[type="text"]{
+	height: 5vh;
+	width: 50vw;
+	background-color: white;
+	border-radius: 5px;
+	border: none;
+	margin-right: 1%;
+	margin-bottom: 10%;
+	padding-left: 2%;
+}
+
+input[type="submit"]{
+	height: 5vh;
+	width: 30vw;
+	border:none;
+	border-radius: 5px;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+}
+
+
+@media only screen and (min-width: 600px){
+	body{
+		font-size: 25px;
+	}
+	.spacexlogo{
+		height: 5%;
+	}
+}
+@media only screen and (min-width: 900px){
+	body{
+		font-size: 30px;
+	}
+	.spacexlogo{
+		width: 50%;
+	}
+	#map{
+		height: 120vh;
+	}
+}
+@media only screen and (min-width: 1200px){
+	body{
+		font-size: 25px;
+	}
+	.content{
+		width: 70%;
+		margin-bottom: 3%;
+		margin-left: 11%;
+	}
+	.content2{
+	padding-top:  10%;
+	color: white;
+	text-align: center;
+}
+}
+@media only screen and (min-width: 1600px){
+	body{
+		font-size: 30px;
+	}
+	.content{
+		padding-top; 0;
+		width: 60%;
+		margin-left: 17%;
+		text-align: center;
+	}
+	.spacexlogo{
+		width: 30%;
+	}
+	h3{
+		margin-top: 0;
+	}
+	#map{
+	height: 150vh;
+	}
+	#weer{
+		height: 105vh;
+	}
+
+}
