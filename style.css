@@ -150,6 +150,7 @@ input[type="submit"]{
 	margin-right: 1%;
 	margin-left: auto;
 	margin-bottom: 2%;
+	font-size: 20px;
 }
 
 input[type="submit"]{
@@ -157,6 +158,7 @@ input[type="submit"]{
 	width: 30vw;
 	margin-right: auto;
 	margin-left: 1%;
+	font-size: 20px;
 }
 #knop{
 	display: flex;
